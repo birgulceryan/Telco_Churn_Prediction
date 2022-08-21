@@ -404,9 +404,9 @@ scaler = RobustScaler() # Medyanı çıkar iqr'a böl.
 df[num_cols] = scaler.fit_transform(df[num_cols])
 df.head()
 
-#####################################################
+####################################################
 #Görev 3 : Modelleme
-#####################################################
+####################################################
 #########
 #Adım 1: Sınıflandırma algoritmaları ile modeller kurup, accuracy skorlarını inceleyip. En iyi 4 modeli seçiniz.
 #########
